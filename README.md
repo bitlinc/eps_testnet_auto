@@ -3,9 +3,9 @@ Description=Electrum Personal Server Testnet
 After=bitcoind_testnet.service
 
 [Service]
-ExecStart=/usr/bin/python3 /home/bitcoin/.local/bin/electrum-personal-server /home/bitcoin/eps_testnet/electrum-personal-server/config.ini
-User=bitcoin
-Group=bitcoin
+ExecStart=/usr/bin/python3 /home/pi/.local/bin/electrum-personal-server /home/pi/eps_testnet/electrum-personal-server/config.ini
+User=pi
+Group=
 Type=simple
 KillMode=process
 TimeoutSec=60
